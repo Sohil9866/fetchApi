@@ -12,7 +12,6 @@ button.addEventListener("click", async () => {
     const data = await response.json();
     const products = data.products;
 
-    // Clear previous data
     tableBody.innerHTML = "";
 
     products.forEach((product) => {
