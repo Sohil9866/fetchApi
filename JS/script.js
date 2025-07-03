@@ -34,11 +34,11 @@ function renderProducts(products) {
   products.forEach((p) => {
     const tr = document.createElement("tr");
     tr.innerHTML = `
-          <td>${p.title}</td>
-          <td>${p.brand}</td>
-          <td>$${p.price}</td>
-          <td>${p.category}</td>
-          <td><button class="delete-btn" data-id="${p.id}">Delete</button></td>
+      <td>${p.brand}</td>
+      <td>${p.category}</td>
+      <td>${p.title}</td>
+      <td>$${p.price}</td>
+      <td><button class="delete-btn" data-id="${p.id}">Delete</button></td>
         `;
     tableBody.appendChild(tr);
   });
