@@ -67,7 +67,7 @@ form button:hover {
 }
 
 a {
-  color: #007bff; /* Bootstrap-style blue */
+  color: #007bff;
   text-decoration: none;
   font-weight: 500;
 }
